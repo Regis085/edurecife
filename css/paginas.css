@@ -109,3 +109,7 @@ table {
         background-color: navy;
         text-align: center;
     }
+
+    .img_estadios figure img{
+        width:100%;
+    }
