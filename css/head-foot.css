@@ -1,0 +1,116 @@
+﻿@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fontes/bubblegum-sans-regular.otf");
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#cabecalho {
+    margin: 0px auto;
+    /*position:fixed;
+    top:0;
+    left:50%;
+    margin-left:-480px;*/
+    width: 960px;
+    height: 89px;
+    background-color: #2da9f6;
+    /*border: 1px solid black;*/
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    height: 89px;
+    float: left;
+}
+
+#cabecalho nav {    
+    float:right;    
+}
+
+.menu {
+    position:relative;
+    left:5px;
+    
+    /*width:550px;*/
+    height:20px;
+    list-style:none;
+    padding:0;
+    float: right;
+    margin-right:10px;
+    /*margin-right: 5px;*/
+    /*margin-top: 32px;*/
+    
+}
+
+    .menu li {
+        display: inline;
+        height:22px;
+        width:88px;
+        font-size: 12pt;
+        color: #2da9f6;
+        background-color: #f6b271;
+        background-color: white;
+        padding: 6px 4px;        
+        margin:0;
+        margin-left:-4px;
+        border-right: 1px solid #2da9f6;
+        
+    }
+        .menu li a {
+            display: inline;
+            height:inherit;
+            width:inherit;
+            /*text-align:center;*/
+            color: navy;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+            .menu li:hover{
+                background-color: #f6be75;
+                background-color: #eee;
+            }
+
+            .menu li a:visited {
+                color: navy;
+                font-weight: 700;
+            }
+
+        .menu li:last-child {
+            border-right: none;
+        }
+
+        .menu li ul {
+            display:none;            
+            position: absolute;
+            position: fixed;
+            margin-left:477px;
+            margin-top:4px;
+            /*top: 55px;*/
+            /*left:1443px;*/     
+        }
+        .menu li:hover ul, .menu li.over ul {
+            display: block;
+        }
+        .menu li ul li {
+            display: block;
+            border: 1px solid #c0c0c0;
+            width: 170px;
+        }
+        .menu li ul li a{
+            display:block;
+        }
+
+
+#rodape {
+    margin: 0 auto;
+    width: 960px;
+    height: 300px;
+    background-color: lightgreen;
+    /*border: 1px solid black;*/
+}

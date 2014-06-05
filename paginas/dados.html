@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dados do Recife</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/dados.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head-foot.css" />
+    <script src="../js/Chart.js-master/Chart.js"></script>
+
+</head>
+<body>
+    <header id="cabecalho">
+        <figure id="logo">
+            <img src="../imagens/logo.gif" />
+        </figure>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="cultura.html">Cultura</a></li>
+                <li><a href="demografia.html">Demografia</a></li>
+                <li><a href="economia.html">Economia</a></li>
+                <li><a href="geografia.html">Geografia</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="politica.html">Política</a></li>
+                <li>
+                    <a id="guia" href="#">Guia&nbsp;&nbsp;</a>
+                    <ul id="submenu">
+                        <li><a href="#">Cinemas</a></li>
+                        <li><a href="teatros.html">Teatros</a></li>
+                        <li><a href="estadios.html">Estádios</a></li>
+                        <li><a href="igrejas.html">Igrejas</a></li>
+                        <li><a href="museus.html">Museus</a></li>
+                        <li><a href="instituto-brennand.html">Instituto Brennand</a></li>
+                        <li><a href="recife-antigo.html">Recife Antigo</a></li>
+                        <li><a href="parques.html">Parques</a></li>
+                        <li><a href="praias.html">Praias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="conteudo">
+        <h1>Dados</h1>
+        <article>
+            <canvas id="canvas-01" height="450" width="600"></canvas>
+        </article>
+        <article>
+            <h2>Indicadores</h2>
+            <span>Fonte: IBGE</span>
+            <table>
+                <tr>
+                    <th>Indicador</th>
+                    <th>Valor</th>
+                    <th>Und.</th>
+                </tr>
+                <tr>
+                    <td>Área da unidade territorial</td>
+                    <td>218,435</td>
+                    <td>km²</td>
+                </tr>
+                <tr>
+                    <td>Estabelecimentos de Saúde SUS</td>
+                    <td>274</td>
+                    <td>estabelecimentos</td>
+                </tr>
+                <tr>
+                    <td>Índice de Desenvolvimento Humano Municipal - 2010 (IDHM 2010)</td>
+                    <td>0,772</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Matrícula - Ensino fundamental - 2012</td>
+                    <td>211.549</td>
+                    <td>matrículas</td>
+                </tr>
+                <tr>
+                    <td>Matrícula - Ensino médio - 2012</td>
+                    <td>74.638</td>
+                    <td>matrículas</td>
+                </tr>
+                <tr>
+                    <td>Número de unidades locais</td>
+                    <td>46.144</td>
+                    <td>unidades</td>
+                </tr>
+                <tr>
+                    <td>Pessoal ocupado total</td>
+                    <td>789.968</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>PIB per capita a preços correntes - 2011</td>
+                    <td>21.434,88</td>
+                    <td>reais</td>
+                </tr>
+                <tr>
+                    <td>População residente</td>
+                    <td>1.537.704</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente - Homens</td>
+                    <td>709.819</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente - Mulheres</td>
+                    <td>827.885</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente alfabetizada</td>
+                    <td>1.320.793</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente que frequentava creche ou escola </td>
+                    <td>487.718</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente, religião católica apostólica romana</td>
+                    <td>835.337</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>População residente, religião espírita</td>
+                    <td>54.788</td>
+                    <td>pessoas</td>
+                <tr>
+                    <td>População residente, religião evangélicas</td>
+                    <td>384.303</td>
+                    <td>pessoas</td>
+                </tr>
+                <tr>
+                    <td>Valor do rendimento nominal mediano mensal per capita dos domicílios particulares permanentes - Urbana</td>
+                    <td>500,00</td>
+                    <td>reais</td>
+                </tr>
+                <tr>
+                    <td>Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar, por situação do domicílio - Urbana</td>
+                    <td>3.755,53</td>
+                    <td>reais</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Produto Interno Bruto 2009</h2>
+            <span>Fonte: IBGE</span>
+            <table>
+                <tr>
+                    <th>Setor</th>
+                    <th>Recife</th>
+                    <th>Pernambuco</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr>
+                    <td>Agropecuária</td>
+                    <td>10.536</td>
+                    <td>5.071.350</td>
+                    <td>21.951.726</td>
+                </tr>
+                <tr>
+                    <td>Indústria</td>
+                    <td>2.201.204</td>
+                    <td>9.489.597</td>
+                    <td>31.227.506</td>
+                </tr>
+                <tr>
+                    <td>Serviços</td>
+                    <td>105.163.000</td>
+                    <td>539.315.998</td>
+                    <td>1.197.774.001</td>
+                </tr>
+            </table>
+            <canvas id="canvas-02" height="200" width="300"></canvas>
+        </article>
+        <article>
+            <h2>Religiões</h2>
+            <canvas id="canvas-03" height="450" width="600"></canvas>
+        </article>
+    </section>
+
+    <footer id="rodape"></footer>
+    <script>
+        //canvas-01
+        var barChartData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [
+				{
+				    fillColor: "rgba(255,0,0,0.5)",
+				    strokeColor: "rgba(255,0,0,1)",
+				    data: [65, 59, 90, 81, 56, 55, 40]
+				},
+				{
+				    fillColor: "rgba(0,0,205,0.5)",
+				    strokeColor: "rgba(0,0,205,1)",
+				    data: [28, 48, 40, 19, 96, 27, 100]
+				}
+            ]
+        }
+        //var myLine = new Chart(document.getElementById("canvas-01").getContext("2d")).Bar(barChartData);
+        var myLine = new Chart(document.getElementById("canvas-01").getContext("2d")).Line(barChartData);
+        
+        //canvas-02
+        var setoresEconomia = [
+				{
+				    value: 10536,
+				    color: "#F7464A"
+				},
+				{
+				    value: 2201204,
+				    color: "#46BFBD"
+				},
+				{
+				    value: 105163000,
+				    color: "#FDB45C"
+				},
+        ];
+        var setoresEconomiaObj = new Chart(document.getElementById("canvas-02").getContext("2d")).Doughnut(setoresEconomia);
+
+        //canvas-03
+        var religioes = [
+				{                    
+				    value: 835337,
+				    color: "#F7464A"
+				},
+				{
+				    value: 54788,
+				    color: "#46BFBD"
+				},
+				{
+				    value: 384303,
+				    color: "#FDB45C"
+				},
+        ];
+        var religioesObj = new Chart(document.getElementById("canvas-03").getContext("2d")).Pie(religioes);
+        //Doughnut(religioes);
+
+    </script>
+
+</body>
+</html>
