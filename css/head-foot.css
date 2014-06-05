@@ -34,98 +34,98 @@ body {
     padding: 0px 5px;
 }
 
-#share{
+#share {
     width: 718px;
     height: 89px;
     float: left;
     text-align: right;
-
 }
 
-#share img{
-    margin-top: 5px;
-    width: 30px;
-    border-radius: 150px;
-}
+    #share img {
+        margin-top: 5px;
+        width: 30px;
+        border-radius: 150px;
+    }
 
-nav{
+nav {
     width: 960px;
     height: 30px;
     margin: 0px auto;
     float: left;
     background-color: inherit;
-} 
+}
 
 .menu {
-    position:relative;
-    left:5px;
-    
+    position: relative;
+    left: 5px;
     /*width:550px;*/
-    height:20px;
-    list-style:none;
-    padding:0;
+    height: 20px;
+    list-style: none;
+    padding: 0;
     text-align: center;
-    margin-right:10px;
+    margin-right: 10px;
     /*margin-right: 5px;*/
     margin-top: 3px;
-    
 }
 
     .menu li {
         display: inline;
-        height:22px;
-        width:88px;
+        height: 22px;
+        width: 88px;
         font-size: 12pt;
         background-color: inherit;
-        margin:0;
-        margin-left:-4px;
+        margin: 0;
+        margin-left: -4px;
         padding: 10px;
-        
     }
+
         .menu li a {
-            padding: 7px 4px;        
+            padding: 7px 4px;
             display: inline;
-            height:inherit;
-            width:inherit;
+            height: inherit;
+            width: inherit;
             /*text-align:center;*/
             color: #fff;
             font-weight: 700;
             text-decoration: none;
         }
 
-            .menu a:hover{
-                background-color: #fff;
-                color: #2da9f6;
-            }
+    .menu a:hover {
+        background-color: #fff;
+        color: #2da9f6;
+    }
 
-            .menu li a:visited {
-                color: navy;
-                font-weight: 700;
-            }
+    .menu li a:visited {
+        color: navy;
+        font-weight: 700;
+    }
 
-        .menu li:last-child {
-            border-right: none;
-        }
+    .menu li:last-child {
+        border-right: none;
+    }
 
-        .menu li ul {
-            display:none;            
-            position: absolute;
-            position: fixed;
-            margin-left:470px;
-            margin-top:3px;
-            /*top: 55px;*/
-            /*left:1443px;*/     
-        }
-        .menu li:hover ul, .menu li.over ul {
+    .menu li ul {
+        display: none;
+        position: absolute;
+        position: fixed;
+        margin-left: 670px;
+        margin-top: 3px;                
+        list-style:circle;
+    }
+
+    .menu li:hover ul, .menu li.over ul {
+        display: block;
+    }
+
+    .menu li ul li {
+        background-color: #2da9f6;
+        display: block;
+        /*border: 1px solid #c0c0c0;*/
+        width: 170px;
+    }
+
+        .menu li ul li a {
             display: block;
-        }
-        .menu li ul li {
-            display: block;
-            border: 1px solid #c0c0c0;
-            width: 170px;
-        }
-        .menu li ul li a{
-            display:block;
         }
 
 
@@ -136,5 +136,3 @@ nav{
     background-color: lightgreen;
     /*border: 1px solid black;*/
 }
-
-
