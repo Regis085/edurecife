@@ -35,22 +35,26 @@ body {
 }
 
 #share{
-    background-color: #fff;
-    
+    width: 718px;
+    height: 89px;
+    float: left;
+    text-align: right;
+
 }
 
 #share img{
+    margin-top: 5px;
+    width: 30px;
     border-radius: 150px;
-    width: 50px;
 }
 
-
-
-
-
-#cabecalho nav {    
-    float:right;    
-}
+nav{
+    width: 960px;
+    height: 30px;
+    margin: 0px auto;
+    float: left;
+    background-color: inherit;
+} 
 
 .menu {
     position:relative;
@@ -60,10 +64,10 @@ body {
     height:20px;
     list-style:none;
     padding:0;
-    float: right;
+    text-align: center;
     margin-right:10px;
     /*margin-right: 5px;*/
-    /*margin-top: 32px;*/
+    margin-top: 3px;
     
 }
 
@@ -72,28 +76,26 @@ body {
         height:22px;
         width:88px;
         font-size: 12pt;
-        color: #2da9f6;
-        background-color: #f6b271;
-        background-color: white;
-        padding: 6px 4px;        
+        background-color: inherit;
         margin:0;
         margin-left:-4px;
-        border-right: 1px solid #2da9f6;
+        padding: 10px;
         
     }
         .menu li a {
+            padding: 7px 4px;        
             display: inline;
             height:inherit;
             width:inherit;
             /*text-align:center;*/
-            color: navy;
+            color: #fff;
             font-weight: 700;
             text-decoration: none;
         }
 
-            .menu li:hover{
-                background-color: #f6be75;
-                background-color: #eee;
+            .menu a:hover{
+                background-color: #fff;
+                color: #2da9f6;
             }
 
             .menu li a:visited {
