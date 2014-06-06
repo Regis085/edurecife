@@ -17,11 +17,14 @@ body {
     zoom:100%;    
 }*/
 
+#centralizador{
+    width: inherit;
+}
+
 figure#banner{    
-    margin:1px auto 0px;
-    
-    width:100%;
+    width: 1920px;
     height:900px;
+    margin: 0px auto;
     zoom:100%; 
     overflow: hidden;   
 }
@@ -63,4 +66,24 @@ section.grupo figure:first-child{
     section.grupo figure:hover figcaption {
         display:block;
         opacity:1;
+    }
+
+
+
+    /* paragrafo no rodape */
+    footer div{
+        width: 940px;
+        margin: 0px auto;
+    }
+
+    footer p{
+        width: 290px;
+        margin: 0px 10px;
+        float: left;
+        text-align: center;
+    }
+
+    #centro{
+        border-left: 1px solid;
+        border-right: 1px solid;
     }
