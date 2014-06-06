@@ -5,21 +5,7 @@
     src: url("../fontes/bubblegum-sans-regular.otf");
 }
 
-#article-1 {
-}
-
-.lista {
-    width: 400px;
-    float: left;
-}
-
-    .lista h3 {
-        width: 300px;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-.clear {
+.separador {
     clear: both;
 }
 
@@ -132,4 +118,12 @@ table {
 
 #conteudo a:link {
     text-decoration: none;
+}
+.duas-colunas{
+    -webkit-column-count:2;
+}
+.caixa-texto{
+    width:439px;
+    margin:0 20px 0 0;
+    float:left;
 }
