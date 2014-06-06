@@ -5,16 +5,31 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/head-foot.css">
+    <script type="text/javascript">
+        function slide1() {
+            document.getElementById('img-banner').src = "imagens/banner/recife-antigo.jpg";
+            setTimeout("slide2()", 2000)
+        }
 
+        function slide2() {
+            document.getElementById('img-banner').src = "imagens/banner/praia-boaviagem.jpg";
+            setTimeout("slide3()", 2000)
+        }
+
+        function slide3() {
+            document.getElementById('img-banner').src = "imagens/banner/rio-capibaribe.jpg";
+            setTimeout("slide1()", 2000)
+        }
+    </script>
 </head>
-<body>
+<body onload="slide1()">
     <header id="cabecalho">
         <figure id="logo">
-        EDURECIFE
+            EDURECIFE
         </figure>
         <section id="share">
             <a href="https://www.facebook.com/pages/EduRecife/696372060428420" target="blank"><img src="imagens/share/facebook.png" alt="conecte-se com o facebook"></a>
-            <a href="https://plus.google.com/?hl=pt_br" target="blank"><img src="imagens/share/google.jpg" alt=""></a>            
+            <a href="https://plus.google.com/?hl=pt_br" target="blank"><img src="imagens/share/google.jpg" alt=""></a>
             <a href="http://instagram.com/" target="blank"><img src="imagens/share/instagram.jpg" alt=""></a>
         </section>
         <nav>
@@ -43,58 +58,60 @@
             </ul>
         </nav>
     </header>
-    <figure id="banner"></figure>
+    <div class="separador"></div>
+    <figure id="banner">
+        <img width="960" height="520" id="img-banner" />
+    </figure>
+    <div class="separador"></div>
     <section id="corpo">
         <section class="grupo">
             <figure>
                 <!-- <figcaption>Cinemas</figcaption> -->
                 <a href="paginas/cinemas.html"><img alt="Cinemas" src="imagens/cinemas/rosa-e-silva.jpg" title="Cinemas"></a>
-                
+
             </figure>
             <figure>
                 <!-- <figcaption>Teatros</figcaption> -->
-				<a href="paginas/teatros.html"><img alt="Teatros"  title="Teatros/ Teatro Santa Isabel" src="imagens/teatros/teatro-santa-isabel.jpg"></a>
+                <a href="paginas/teatros.html"><img alt="Teatros" title="Teatros/ Teatro Santa Isabel" src="imagens/teatros/teatro-santa-isabel.jpg"></a>
             </figure>
             <figure>
                 <!-- <figcaption>Estádios</figcaption> -->
-				<a href="paginas/estadios.html"><img alt="Estadios" title="Estádios" src="imagens/estadios/aflitos.jpg"></a>
+                <a href="paginas/estadios.html"><img alt="Estadios" title="Estádios" src="imagens/estadios/aflitos.jpg"></a>
             </figure>
 
         </section>
         <section class="grupo">
             <figure>
                 <!-- <figcaption>Igrejas</figcaption> -->
-				<a href="paginas/igrejas.html"><img alt="Igrejas" title="Igrejas"src="imagens/igrejas/igreja-das-fronteiras.jpg"></a>
+                <a href="paginas/igrejas.html"><img alt="Igrejas" title="Igrejas" src="imagens/igrejas/igreja-das-fronteiras.jpg"></a>
             </figure>
             <figure>
                 <!-- <figcaption>Museus</figcaption> -->
-				<a href="paginas/museus.html"><img alt="Igrejas" title="Museus"src="imagens/museus/torre-cristal.jpg"></a>
+                <a href="paginas/museus.html"><img alt="Igrejas" title="Museus" src="imagens/museus/torre-cristal.jpg"></a>
             </figure>
             <figure>
                 <!-- <figcaption>Oficina de Brennand</figcaption> -->
-				<a href="paginas/instituto-brennand.html"><img alt="Instituto Brennand" title="Instituto Brennand"src="imagens/brennand/castelo-brennand.jpg"></a>
+                <a href="paginas/instituto-brennand.html"><img alt="Instituto Brennand" title="Instituto Brennand" src="imagens/brennand/castelo-brennand.jpg"></a>
             </figure>
         </section>
-		
+
         <section class="grupo">
 
             <figure>
                 <!-- <figcaption>Recife Antigo</figcaption> -->
-				<a href="paginas/recife-antigo.html"><img alt="Recife Antigo" title="Recife Antigo" src="imagens/recife-antigo/recife-pontes.jpg"></a>
+                <a href="paginas/recife-antigo.html"><img alt="Recife Antigo" title="Recife Antigo" src="imagens/recife-antigo/recife-pontes.jpg"></a>
             </figure>
             <figure>
                 <!-- <figcaption>Parques</figcaption> -->
-				<a href="paginas/parques.html"><img alt="Parques" title="Parques" src="imagens/parques/praca-republica.jpg"></a>
+                <a href="paginas/parques.html"><img alt="Parques" title="Parques" src="imagens/parques/praca-republica.jpg"></a>
             </figure>
             <figure>
                 <!-- <figcaption>Praias</figcaption> -->
-				<a href="paginas/praias.html"><img alt="Praias" title="Praias/Praia de Boa Viagem" src="imagens/praias/boa-viagem.jpg"></a>
+                <a href="paginas/praias.html"><img alt="Praias" title="Praias/Praia de Boa Viagem" src="imagens/praias/boa-viagem.jpg"></a>
             </figure>
 
         </section>
     </section>
     <footer id="rodape"></footer>
-    <script type="text/javascript" language="javascript" src="js/jquery-1.2.2.js"></script>
-    <script type="text/javascript" src="js/menu-flutuante.js" charset="utf-8"></script>
 </body>
 </html>
