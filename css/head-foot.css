@@ -11,14 +11,9 @@ body {
 
 #cabecalho {
     margin: 0px auto;
-    /*position:fixed;
-    top:0;
-    left:50%;
-    margin-left:-480px;*/
     width: 960px;
     height: 89px;
     background-color: #2da9f6;
-    /*border: 1px solid black;*/
 }
 
 #logo {
@@ -58,13 +53,11 @@ nav {
 .menu {
     position: relative;
     left: 5px;
-    /*width:550px;*/
     height: 20px;
     list-style: none;
     padding: 0;
     text-align: center;
     margin-right: 10px;
-    /*margin-right: 5px;*/
     margin-top: 3px;
 }
 
@@ -77,26 +70,35 @@ nav {
         margin: 0;
         margin-left: -4px;
         padding: 10px;
-    }
-
+    }    
         .menu li a {
             padding: 7px 4px;
             display: inline;
             height: inherit;
             width: inherit;
-            /*text-align:center;*/
             color: #fff;
             font-weight: 700;
             text-decoration: none;
         }
 
+
     .menu a:hover {
         background-color: #fff;
-        color: #2da9f6;
+        /*color: #2da9f6;*/
+        color:initial;
+    }
+
+    .menu li:hover {
+        background-color: #fff;
+        /*color: #2da9f6;*/
+    }
+    #submenu li:hover {
+        background-color: #fff;
+        /*color: #2da9f6;*/
     }
 
     .menu li a:visited {
-        color: navy;
+        color: black;
         font-weight: 700;
     }
 
@@ -109,22 +111,22 @@ nav {
         position: absolute;
         position: fixed;
         margin-left: 670px;
-        margin-top: 3px;                
-        list-style:circle;
+        margin-top: 3px;
+        list-style: circle;
     }
 
     .menu li:hover ul, .menu li.over ul {
         display: block;
     }
 
-    .menu li ul li {
+    #submenu li {
         background-color: #2da9f6;
         display: block;
-        /*border: 1px solid #c0c0c0;*/
-        width: 170px;
+        border: 1px solid #fff;
+        width: 147px;
     }
 
-        .menu li ul li a {
+        #submenu li a {
             display: block;
         }
 

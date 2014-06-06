@@ -27,9 +27,7 @@ section#conteudo {
     clear: both;
     margin: 0 auto;
     width: 960px;
-    /*height: 8000px;*/
     background-color: white;
-    /*border: 1px solid black;*/
     color: black;
     text-align: justify;
     font-family: Arial;
@@ -43,6 +41,9 @@ figcaption {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+}
+#conteudo a{
+    color:inherit;
 }
 
 section#conteudo article {
@@ -125,10 +126,10 @@ table {
         text-align: center;
     }
 
-a:visited {
+#conteudo a:visited {
     color: inherit;
 }
 
-a:link {
+#conteudo a:link {
     text-decoration: none;
 }
