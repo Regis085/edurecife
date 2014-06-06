@@ -1,38 +1,28 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
 <head>
     <title>EduRecife</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/head-foot.css">
-    <script type="text/javascript">
-        function slide1() {
-            document.getElementById('img-banner').src = "imagens/banner/recife-antigo.jpg";
-            setTimeout("slide2()", 2000)
-        }
-
-        function slide2() {
-            document.getElementById('img-banner').src = "imagens/banner/praia-boaviagem.jpg";
-            setTimeout("slide3()", 2000)
-        }
-
-        function slide3() {
-            document.getElementById('img-banner').src = "imagens/banner/rio-capibaribe.jpg";
-            setTimeout("slide1()", 2000)
-        }
-    </script>
+    <script src="js/jquery-1.6.3.min.js"></script>
+    <script src="../js/menu-flutuante.js"></script>
+    <script src="../js/banner-index.js"></script>
 </head>
 <body onload="slide1()">
     <header id="cabecalho">
-        <figure id="logo">
-            EDURECIFE
-        </figure>
-        <section id="share">
-            <a href="https://www.facebook.com/pages/EduRecife/696372060428420" target="blank"><img src="imagens/share/facebook.png" alt="conecte-se com o facebook"></a>
-            <a href="https://plus.google.com/?hl=pt_br" target="blank"><img src="imagens/share/google.jpg" alt=""></a>
-            <a href="http://instagram.com/" target="blank"><img src="imagens/share/instagram.jpg" alt=""></a>
-        </section>
-        <nav>
+        <div>
+            <figure id="logo">
+                EDURECIFE
+            </figure>
+            <section id="share">
+                <a href="https://www.facebook.com/pages/EduRecife/696372060428420" target="blank"><img src="imagens/share/facebook.png" alt="conecte-se com o facebook"></a>
+                <a href="https://plus.google.com/?hl=pt_br" target="blank"><img src="imagens/share/google.jpg" alt=""></a>
+                <a href="http://instagram.com/" target="blank"><img src="imagens/share/instagram.jpg" alt=""></a>
+            </section>
+        </div>
+        <div class="separador"></div>
+        <nav class="nav-original">
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="paginas/cultura.html">Cultura</a></li>

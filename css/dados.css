@@ -162,19 +162,3 @@ canvas {
 #rodape {
     clear: both;
 }
-
-/*Menu flutuante*/
-.nav-total {
-    /*clear: both;*/
-}
-/******classe que será adicionada fazendo flutuar o menu******/
-
-.f-nav {
-    height: 40px;
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float:left;
-    width:960px;
-}

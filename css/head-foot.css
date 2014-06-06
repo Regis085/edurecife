@@ -8,11 +8,19 @@ body {
     padding: 0px;
     margin: 0px;
 }
+header div{
+    width:960px;
+    margin:0 auto;
+}
+.separador{
+    clear:both;
+}
 
 #cabecalho {
     margin: 0px auto;
     width: 960px;
-    height: 89px;
+    width: auto;
+    height: 123px;
     background-color: #2da9f6;
 }
 
@@ -43,17 +51,20 @@ body {
     }
 
 nav {
-    width: 960px;
-    height: 30px;
-    margin: 0px auto;
+    position:relative;
+    left:50%;
+    margin-left:-356px;
+    /*width: 960px;
+    width: auto;*/
+    height: 33px;
     float: left;
-    background-color: inherit;
+    background-color: #76bde9;
 }
 
 .menu {
     position: relative;
     left: 5px;
-    height: 20px;
+    height: 33px;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -69,30 +80,29 @@ nav {
         background-color: inherit;
         margin: 0;
         margin-left: -4px;
-        padding: 10px;
-        /*vertical-align:top;*/
+        padding: 8px 10px;
     }
 
         .menu li a {
-            padding: 7px 4px;
+            padding: 0px 4px;
             display: inline;
             height: inherit;
             width: inherit;
             color: #000;
             font-weight: 700;
             text-decoration: none;
+            vertical-align:central;
+            line-height: 30px;
         }
 
 
     .menu a:hover {
-        background-color: #fff;
-        /*color: #2da9f6;*/
+        
         color: initial;
     }
 
     .menu li:hover {
-        background-color: #fff;
-        /*color: #2da9f6;*/
+        background-color: #2da9f6;
     }
 
     .menu li a:visited {
@@ -117,21 +127,25 @@ nav {
         display: block;
     }
 
-#submenu li {
-    background-color: #2da9f6;
-    display: block;
-    border: 1px solid #fff;
-    width: 155px;
+#submenu {
+    z-index: 9999;    
 }
 
-    #submenu li:hover {
-        background-color: #fff;
-        /*color: #2da9f6;*/
+    #submenu li {
+        background-color: navy;
+        display: block;
+        border: 1px solid #fff;
+        width: 155px;
     }
 
-    #submenu li a {
-        display: block;
-    }
+        #submenu li:hover {
+            background-color: #fff;
+            /*color: #2da9f6;*/
+        }
+
+        #submenu li a {
+            display: block;
+        }
 
 
 #rodape {
@@ -139,5 +153,21 @@ nav {
     width: 960px;
     height: 200px;
     background-color: lightgreen;
-    /*border: 1px solid black;*/
+}
+
+/*Menu flutuante*/
+.nav-original {
+    /*clear: both;*/
+}
+/******classe que será adicionada fazendo flutuar o menu******/
+
+.nav-flutua {
+    padding-top:10px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 31px;
+    width: 100%;
+    float:left;
+    width:960px;
 }

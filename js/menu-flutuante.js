@@ -1,12 +1,12 @@
 ﻿jQuery("document").ready(function ($) {
 
-    var nav = $('.nav-total');
+    var nav = $('.nav-original');
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 89) {
-            nav.addClass("f-nav");
+            nav.addClass("nav-flutua");
         } else {
-            nav.removeClass("f-nav");
+            nav.removeClass("nav-flutua");
         }
     });
 
