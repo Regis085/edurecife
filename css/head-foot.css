@@ -39,9 +39,8 @@ header div{
 
 #share {
     width: 110px;
-    height: 89px;
+    margin-top: 24px;
     float: right;
-    /*text-align: right;*/
 }
 
     #share img {
@@ -51,11 +50,8 @@ header div{
     }
 
 nav {
-    position:relative;
-    left:50%;
-    margin-left:-356px;
-    /*width: 960px;
-    width: auto;*/
+
+    width: 100%;
     height: 33px;
     float: left;
     background-color: #76bde9;
@@ -150,9 +146,9 @@ nav {
 
 #rodape {
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
     height: 200px;
-    background-color: lightgreen;
+    background-color: #2da9f6;
 }
 
 /*Menu flutuante*/
@@ -164,10 +160,11 @@ nav {
 .nav-flutua {
     padding-top:10px;
     position: fixed;
-    top: 0;
+    top: -10px;
     z-index: 9999;
-    height: 31px;
+    height: 33px;
     width: 100%;
     float:left;
-    width:960px;
+
+
 }
