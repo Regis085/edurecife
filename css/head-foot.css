@@ -70,13 +70,14 @@ nav {
         margin: 0;
         margin-left: -4px;
         padding: 10px;
+        /*vertical-align:top;*/
     }    
         .menu li a {
             padding: 7px 4px;
             display: inline;
             height: inherit;
             width: inherit;
-            color: #fff;
+            color: #000;
             font-weight: 700;
             text-decoration: none;
         }
@@ -134,7 +135,7 @@ nav {
 #rodape {
     margin: 0 auto;
     width: 960px;
-    height: 300px;
+    height: 200px;
     background-color: lightgreen;
     /*border: 1px solid black;*/
 }
