@@ -71,7 +71,8 @@ nav {
         margin-left: -4px;
         padding: 10px;
         /*vertical-align:top;*/
-    }    
+    }
+
         .menu li a {
             padding: 7px 4px;
             display: inline;
@@ -86,14 +87,10 @@ nav {
     .menu a:hover {
         background-color: #fff;
         /*color: #2da9f6;*/
-        color:initial;
+        color: initial;
     }
 
     .menu li:hover {
-        background-color: #fff;
-        /*color: #2da9f6;*/
-    }
-    #submenu li:hover {
         background-color: #fff;
         /*color: #2da9f6;*/
     }
@@ -120,16 +117,21 @@ nav {
         display: block;
     }
 
-    #submenu li {
-        background-color: #2da9f6;
-        display: block;
-        border: 1px solid #fff;
-        width: 147px;
+#submenu li {
+    background-color: #2da9f6;
+    display: block;
+    border: 1px solid #fff;
+    width: 155px;
+}
+
+    #submenu li:hover {
+        background-color: #fff;
+        /*color: #2da9f6;*/
     }
 
-        #submenu li a {
-            display: block;
-        }
+    #submenu li a {
+        display: block;
+    }
 
 
 #rodape {
