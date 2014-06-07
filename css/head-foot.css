@@ -9,7 +9,7 @@ body {
     margin: 0px;
 }
 
-header div {
+.centralizador {
     width: 960px;
     margin: 0 auto;
 }
@@ -93,14 +93,14 @@ nav {
         }
 
 
-    .menu a:hover {
-        color: initial;
-    }
 
     .menu li:hover {
         background-color: #2da9f6;
     }
 
+    .menu a:hover {
+        color: initial;
+    }
     .menu li a:visited {
         color: black;
         font-weight: 700;
@@ -111,18 +111,16 @@ nav {
     }
 
 
-    .menu li:hover ul, .menu li.over ul {
+    .menu li:hover ul{
         display: block;
     }
 
     .menu li ul {
         display: none;
-        position: absolute;
-        position: fixed;
         position: relative;
-        margin-top: 3px;
+        margin-top: 1px;
+        /*margin-left: 1100px;*/
         left:60%;
-        /*margin-left: 670px;*/
     }
 
 #submenu {
