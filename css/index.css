@@ -6,6 +6,7 @@ body {
     font-family: sans-serif;
     padding: 0px;
     margin: 0px;
+    background-color: #eee;
 }
 
 .separador {
@@ -24,26 +25,41 @@ body {
 
 figure#banner {
     width: 1920px;
-    height: 1080px;
+    height: 900px;
+    width: 960px;
+    height: 540px;
     margin: 0px auto;
     overflow: hidden;
+    /*border: 3px solid #76bde9;
+    outline: 1px solid #2da9f6;*/
 }
 
+    figure#banner:hover {
+        /*border: 3px solid #6b97e6;
+        outline: 1px solid #2da9f6;*/
+    }
 
 
-section.grupo {
+section#conteudo {
     width: 960px;
-    height: 300px;
     margin: 0 auto 0px;
 }
 
+section.grupo {
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+}
+
     section.grupo figure {
-        height: 296px;
-        width: 316px;
+        height: auto;
+        width: auto;
         padding: 0px;
         margin: 2px;
         float: left;
         background-color: #888;
+        overflow: no-content;
+        width:316px;
     }
 
         section.grupo figure a {
@@ -52,9 +68,22 @@ section.grupo {
             padding: 0;
             margin: 0;
             outline: none;
+            overflow: no-content;
         }
 
         section.grupo figure img {
-            width: 316px;
-            height: 296px;
+            /*width: 316px;
+            height: 296px;*/
+            /*height: 300px;*/
+            width: 300px;
+            
+            
+            overflow: no-content;
+            /*border: 3px solid #76bde9;
+            outline: 1px #2da9f6 solid;*/
+        }
+        section.grupo figure {
+            overflow: visible;
+
+            
         }
