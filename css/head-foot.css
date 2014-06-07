@@ -152,6 +152,28 @@ nav {
     background-color: #2da9f6;
 }
 
+/* paragrafo no rodape */
+#rodape{
+    margin-top:0px;
+}
+#rodape div {
+    width: 940px;
+    margin: 0px auto;
+}
+
+#rodape p {
+    width: 290px;
+    margin: 0px 10px;
+    float: left;
+    text-align: center;
+}
+
+#centro {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
 /*Menu flutuante*/
 .nav-original {
     /*clear: both;*/
@@ -167,3 +189,4 @@ nav {
     width: 100%;
     float: left;
 }
+

@@ -11,84 +11,50 @@ body {
 .separador {
     clear: both;
 }
-/*figure#banner{    
-    margin:1px auto 0px;
-    width:960px;
-    height:520px;
-    zoom:100%;    
-}*/
 
 #centralizador {
     width: inherit;
 }
 
+/*figure#banner{    
+    margin:1px auto 0px;
+    width:960px;
+    height:520px;   
+}*/
+
 figure#banner {
     width: 1920px;
-    height: 900px;
+    height: 1080px;
     margin: 0px auto;
-    zoom: 100%;
     overflow: hidden;
 }
 
+
+
 section.grupo {
     width: 960px;
-    height: 296px;
+    height: 300px;
     margin: 0 auto 0px;
 }
 
     section.grupo figure {
         height: 296px;
         width: 316px;
-        padding:0px;
+        padding: 0px;
         margin: 2px;
-        margin-top:0px;
         float: left;
         background-color: #888;
     }
-    section.grupo figure a{
-        display:block;
-        height:295px;
-        padding:0;
-        margin:0;
-        outline:none;
-    }
+
+        section.grupo figure a {
+            display: block;
+            height: 295px;
+            padding: 0;
+            margin: 0;
+            outline: none;
+        }
 
         section.grupo figure img {
             width: 316px;
             height: 296px;
         }
-
-        section.grupo figure:first-child {
-        }
-
-        section.grupo figure figcaption {
-            opacity: 0;
-            font-weight: bolder;
-            color: white;
-            position: relative;
-            top: 230px;
-            left: 150px;
-        }
-
-        section.grupo figure:hover figcaption {
-            opacity: 1;
-            display: block;
-        }
-
-/* paragrafo no rodape */
-footer div {
-    width: 940px;
-    margin: 0px auto;
-}
-
-footer p {
-    width: 290px;
-    margin: 0px 10px;
-    float: left;
-    text-align: center;
-}
-
-#centro {
-    border-left: 1px solid;
-    border-right: 1px solid;
-}
