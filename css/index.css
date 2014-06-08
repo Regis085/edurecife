@@ -9,11 +9,7 @@ body {
     background-color: #eee;
 }
 
-.separador {
-    clear: both;
-}
-
-#centralizador {
+#banner-container {
     width: inherit;
 }
 
@@ -34,10 +30,10 @@ figure#banner {
     outline: 1px solid #2da9f6;*/
 }
 
-    figure#banner:hover {
-        /*border: 3px solid #6b97e6;
-        outline: 1px solid #2da9f6;*/
+    figure#banner img {
+        width: 960px;
     }
+
 
 
 section#conteudo {
@@ -59,7 +55,7 @@ section.grupo {
         float: left;
         background-color: #888;
         overflow: no-content;
-        width:316px;
+        width: 316px;
     }
 
         section.grupo figure a {
@@ -76,15 +72,12 @@ section.grupo {
             height: 296px;*/
             /*height: 300px;*/
             width: inherit;
-            height:inherit;
-            
-            
+            height: inherit;
             overflow: no-content;
             /*border: 3px solid #76bde9;
             outline: 1px #2da9f6 solid;*/
         }
-        section.grupo figure {
-            overflow: visible;
 
-            
-        }
+    section.grupo figure {
+        overflow: visible;
+    }

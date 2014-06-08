@@ -1,0 +1,37 @@
+﻿body{
+    margin:0;
+    padding:0;
+    outline:0;
+    background-color:#ddd;
+}
+header{
+    background-color:red;
+}
+.centralizador{
+    width:960px;
+    margin:0 auto;
+}
+#menu-container{
+    width:100%;
+    background-color:aqua;
+}
+.nav-original{    
+    margin:0 auto;
+    width:960px;
+}
+
+.menu li{
+    display:inline;
+}
+#submenu{
+    display:none;
+}
+#sub:hover #submenu{
+    display:block;
+    position:relative;
+    left:37%;
+}
+#submenu li{
+    display:block;
+
+}
