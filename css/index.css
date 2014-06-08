@@ -75,7 +75,8 @@ section.grupo {
             /*width: 316px;
             height: 296px;*/
             /*height: 300px;*/
-            width: 300px;
+            width: inherit;
+            height:inherit;
             
             
             overflow: no-content;
