@@ -15,21 +15,13 @@ body {
     width: inherit;
 }
 
-/*figure#banner{    
-    margin:1px auto 0px;
-    width:960px;
-    height:520px;   
-}*/
 
 figure#banner {
-    width: 1920px;
     height: 900px;
     width: 960px;
     height: 540px;
     margin: 5px auto 0px;
     overflow: hidden;
-    /*border: 3px solid #76bde9;
-    outline: 1px solid #2da9f6;*/
 }
 
     figure#banner img {
@@ -51,7 +43,6 @@ section.grupo {
 
     section.grupo figure {
         height: auto;
-        width: auto;
         padding: 0px;
         margin: 2px;
         float: left;
@@ -70,16 +61,39 @@ section.grupo {
         }
 
         section.grupo figure img {
-            /*width: 316px;
-            height: 296px;*/
-            /*height: 300px;*/
-            width: inherit;
+                   width: inherit;
             height: inherit;
             overflow: no-content;
-            /*border: 3px solid #76bde9;
-            outline: 1px #2da9f6 solid;*/
-        }
+         }
 
     section.grupo figure {
         overflow: visible;
     }
+
+/* efeito de mostrar conteudo do texto */
+.principal{
+    width: 316px;
+    height: 300px; 
+    background-color: rgba(118, 189, 233, .9); 
+    overflow: hidden; 
+    float: left;
+     z-index: -5;
+ }
+ 
+ .aparece{
+    width: inherit; 
+    height: inherit; 
+    position: relative; 
+    top: 0; transition: top .3s ease-out .3s;
+}
+
+.principal:hover .aparece{
+    top: -300px; 
+    transition: top .3s ease-out .3s;
+}
+
+.img{
+    width: 316px; 
+    height: 300px; 
+    text-align: center;
+}
