@@ -119,3 +119,16 @@ table {
         background-color: navy;
         text-align: center;
     }
+    
+    article{
+	display:block;
+	clear:both;
+}
+
+   #conteudo figure {
+    float: left;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    margin-right:15px;
+}
