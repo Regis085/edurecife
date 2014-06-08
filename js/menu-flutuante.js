@@ -1,15 +1,12 @@
 ﻿jQuery("document").ready(function ($) {
 
-    //var nav = $('.nav-original');
-    var container = $('#menu-container');
+    var container = $('.nav-container');
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 89) {
-            //nav.addClass("nav-flutua");
-            container.addClass("container-flutua");
+            container.addClass("flutuar");
         } else {
-            //nav.removeClass("nav-flutua");
-            container.removeClass("container-flutua");
+            container.removeClass("flutuar");
         }
     });
 
