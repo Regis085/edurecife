@@ -1,11 +1,13 @@
 ﻿/*
     Fontes indicadas por Edmiel: open-sans, lato
 */
-
-body {
-    font-family: sans-serif;
+*{
     padding: 0px;
     margin: 0px;
+}
+
+body {
+    font-family: sans-serif;    
     background-color: #eee;
 }
 
@@ -24,7 +26,7 @@ figure#banner {
     height: 900px;
     width: 960px;
     height: 540px;
-    margin: 0px auto;
+    margin: 2px auto 0px;
     overflow: hidden;
     /*border: 3px solid #76bde9;
     outline: 1px solid #2da9f6;*/

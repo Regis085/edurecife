@@ -54,17 +54,34 @@ body {
         border-radius: 150px;
     }
 
-#menu-container {
-    width: initial;
-    background-color: #76bde9;
+.container-original{
+
+}
+.container-flutua{
+    position: fixed;
+    padding-top: 10px;
+    top: -10px;
     height: 36px;
+    width:100%;
+}
+#menu-container {
+    width: 100%;
+    background-color: #76bde9;
+    /*height: 36px;*/
 }
 
-nav.nav-original {
+nav {
+    position:initial;
     width: 960px;
     margin: 0px auto;
     height: 36px;
     background-color: #76bde9;
+    z-index: 9999;
+}
+
+.nav-original {
+    margin:0 auto;
+    width:960px;
 }
 
 .nav-flutua {
@@ -72,16 +89,14 @@ nav.nav-original {
     position: fixed;
     padding-top: 10px;
     top: -10px;
-    z-index: 9999;
     height: 36px;
-    width: 100%;
-    z-index: 9999;
-    width: 960px;
+    width: 960px;   
     margin: 0 auto;
 }
 /*FIM Menu flutuante*/
 
 ul.menu {
+    width: 960px;
     height: inherit;
     list-style-type: none;
     padding: 0;
@@ -103,10 +118,8 @@ ul.menu {
         margin: 0px;
         display: block;
         padding: 8px 10px;
-
-        height: 20px;        
+        height: 20px;
         width: 100px;
-
         color: #000;
         font-weight: 700;
         text-decoration: none;
@@ -118,39 +131,33 @@ ul.menu {
         background-color: #2da9f6;
     }
 
-.menu a:hover {
-    color: initial;
-}
+    .menu li a:visited {
+        color: black;
+        font-weight: 700;
+    }
 
-.menu li a:visited {
-    color: black;
-    font-weight: 700;
-}
+    .menu li:last-child {
+        border-right: none;
+    }
 
-.menu li:last-child {
-    border-right: none;
-}
+    .menu li:hover ul {
+        display: block;
+    }
 
-
-.menu li:hover ul {
-    display: block;
-}
-
-.menu li ul {
-    position: absolute;
-    display: none;
-    margin-top: 1px;
-    z-index: 9999;
-    width: 100px;
-    background-color: lightgray;
-}
+    .menu li ul {
+        position: absolute;
+        display: none;
+        margin-top: 1px;
+        z-index: 9999;
+        width: 100px;
+        background-color: lightgray;
+    }
 
 #submenu li {
     background-color: #76bde9;
     display: block;
     /*border: 1px solid #fff;*/
     outline: 1px solid #fff;
-    
 }
 
     #submenu li:hover {
