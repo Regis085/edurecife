@@ -147,7 +147,6 @@ ul.menu {
     .menu li ul {
         position: absolute;
         display: none;
-        margin-top: 1px;
         z-index: 9999;
         width: 100px;
         background-color: lightgray;
