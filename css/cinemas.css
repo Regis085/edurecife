@@ -13,8 +13,6 @@ section#conteudo {
     text-align: justify;
     font-family: Arial;
     clear: both;
-    /*height: 8000px;*/
-    /*border: 1px solid black;*/
 }
 
 article {
@@ -43,7 +41,6 @@ h1 {
     margin-top:0;
     font-family: 'FonteLogo';
     font-size: 4em;
-    color: #153ca8;
     padding:20px 0px 0px 0px;
     border-bottom:4px solid navy;        
     margin-right:0;
