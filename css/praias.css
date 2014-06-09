@@ -44,7 +44,6 @@ section#conteudo article {
 
 /*Títulos*/
 h1 {
-    margin: 25px 0px 10px 0px;
     font-family: 'FonteLogo';
     font-size: 4em;
     color: #153ca8;
@@ -52,6 +51,8 @@ h1 {
     border-bottom: 4px solid navy;
     color: navy;
     text-align: center;
+    margin: 25px 0px 10px 0px;
+    background-color:transparent;
 }
 
 h2 {
