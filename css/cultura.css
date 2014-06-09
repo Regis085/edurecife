@@ -39,12 +39,14 @@ section#conteudo article {
 }
 
 h1 {
-    margin: 25px 0px 10px 0px;
+    margin-top: 0;
     font-family: 'FonteLogo';
     font-size: 4em;
     color: #153ca8;
     padding: 20px 0px 0px 0px;
-    border-bottom: 4px solid navy;    
+    border-bottom: 4px solid navy;
+    margin-right: 0;
+    margin-left: 0;
     color: navy;
     text-align: center;
 }
@@ -53,10 +55,9 @@ h2 {
     margin-top: 0;
     font-family: 'FonteLogo';
     font-size: 1.8em;
-    color: #153ca8;
+    color: #fff;
     padding-left: 6px;
-    background-color: #eee;
-    background-color: #f6b271;
+    background-color: #153ca8;
 }
 
 h3 {
@@ -117,9 +118,11 @@ table {
 #conteudo a:link {
     text-decoration: none;
 }
+
 .duas-colunas{
     -webkit-column-count:2;
 }
+
 .caixa-texto{
     width:439px;
     margin:0 20px 0 0;
