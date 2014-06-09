@@ -68,9 +68,11 @@ h4 {
     font-size: 1.2em;
     color: #000;
 }
+
 li, dt, dd {
     font-size: 1.3em;
 }
+
 /*Tabela*/
 table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
